@@ -23,7 +23,7 @@ export const Home = () => {
   return (
     <section id="home">
       <div className="mt-7 px-4 flex flex-col items-center md:flex-row justify-between">
-        <div className="w-[460px] ">
+        <div className="w-96 my-auto ml-10 md:w-[460px] ">
           <h1 className="text-4xl font-bold">{AppText.hello}</h1>
           
           <div className="flex flex-col sm:flex-row">

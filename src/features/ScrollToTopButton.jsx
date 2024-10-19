@@ -9,12 +9,12 @@ export const ScrollToTopButton = () => {
   };
 
   return (
-    <div className="fixed bottom-8 right-8 ">
+    <div className="fixed bottom-8 right-12 ">
       <button
         onClick={scrollToTop}
         className="mb-10  px-1 py-1 bg-purple-600 text-white rounded-full shadow-lg sm:px-2 sm:py-2"
       >
-        <svg
+      <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"

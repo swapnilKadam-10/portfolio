@@ -2,8 +2,14 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
 }
 html {
   scroll-behavior: smooth;
+}
+
+img {
+  pointer-events: none;
+  user-select: none; 
+  -webkit-user-drag: none; 
 }

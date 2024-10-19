@@ -5,10 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "remix build && vite build",
+    "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "postinstall": "npm install"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.3.1",
