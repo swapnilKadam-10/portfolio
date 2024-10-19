@@ -68,7 +68,7 @@ export const Header = () => {
 
               <ul
                 className="flex flex-col mt-12 p-3"
-                onClick={() => setToggle(!toggle)}
+                onClick={ () => setToggle(!toggle)}
               >
                 <li  onClick={() => setToggle(!toggle)} className="mr-5 p-3 transition-all ease-in-out hover:scale-110 cursor-pointer">
                   <a href="#home" >Home</a>
