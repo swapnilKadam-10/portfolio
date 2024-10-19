@@ -70,17 +70,17 @@ export const Header = () => {
                 className="flex flex-col mt-12 p-3"
                 onClick={() => setToggle(!toggle)}
               >
-                <li className="mr-5 p-3 transition-all ease-in-out hover:scale-110 cursor-pointer">
-                  <a href="#home">Home</a>
+                <li  onClick={() => setToggle(!toggle)} className="mr-5 p-3 transition-all ease-in-out hover:scale-110 cursor-pointer">
+                  <a href="#home" >Home</a>
                 </li>
-                <li className="mr-5 p-3 transition-all ease-in-out hover:scale-110 cursor-pointer">
+                <li  onClick={() => setToggle(!toggle)} className="mr-5 p-3 transition-all ease-in-out hover:scale-110 cursor-pointer">
                   <a href="#about">About me</a>
                 </li>
-                <li className="mr-5 p-3 transition-all ease-in-out hover:scale-110 cursor-pointer">
+                <li  onClick={() => setToggle(!toggle)} className="mr-5 p-3 transition-all ease-in-out hover:scale-110 cursor-pointer">
                   <a href="#skills">Skills</a>
                 </li>
-                <li className="mr-5 p-3 transition-all ease-in-out hover:scale-110 cursor-pointer">
-                  <a href="#protfolio">Porttfolio</a>
+                <li  onClick={() => setToggle(!toggle)}className="mr-5 p-3 transition-all ease-in-out hover:scale-110 cursor-pointer">
+                  <a href="#protfolio">Portfolio</a>
                 </li>
                 <li className="mr-5 p-3 transition-all ease-in-out hover:scale-110 cursor-pointer">
                   <a href="#contact">Contact</a>
