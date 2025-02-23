@@ -1,10 +1,10 @@
 import {
  javascript,
-  mysql,
+  // mysql,
   postgresql,
   nodejs,
   react,
-  typescript,
+  // typescript,
   c,
   cpp,
   java,
@@ -15,6 +15,7 @@ import {
   codebook,
   hotel,
   tailwind,
+  mongo
 } from "../assets";
 
 export const AppText = {
@@ -22,7 +23,7 @@ export const AppText = {
   Iam: "I am ",
   SwapnilKadam: "Swapnil Kadam",
   aboutMeDescripion:
-    "Hello! I’m Swapnil Kadam, a passionate and driven computer science student with a strong interest in software development and problem-solving. Currently in my 3rd year of a Bachelor's in Computer Application (BCA), I have hands-on experience with front-end development using ReactJS and backend systems like JSON-Server. I enjoy working on innovative projects, including web development. I’m also actively involved in organizing student-led clubs to foster technical skills, such as coding and communication, and recently took part in the Avishkar project competition, where my team’s innovative idea was selected for further development. With a growing expertise in programming languages like Java, C++, and JavaScript, I am continuously learning to expand my skill set, preparing for campus placements and technical interviews.I aim to become a proficient software developer who contributes to meaningful projects while mentoring others in the field of technology. When I’m not coding, you can find me exploring new technology trends, sharing knowledge with my peers, or working on passion projects that combine creativity and problem-solving.",
+    "Hi, I'm Swapnil Kadam!I’m a passionate frontend developer with hands-on experience in ReactJS, Tailwind CSS, and JavaScript. Currently, I’m expanding into backend development with Node.js, Express.js, and RESTful APIs to strengthen my full-stack capabilities.\n\nI love building scalable, user-friendly web applications and have worked on projects like an Online eBook Selling Website (featuring authentication, search, and cart functionality) and a Tractor Work Management System that streamlines farm service operations.\n\nBeyond coding, I actively contribute to tech communities, organizing coding and communication clubs to help peers enhance their skills. My goal is to become a proficient software developer while mentoring others in technology.",
   Skills: "Skills",
   Experties: "Experties",
   UIUXDesigner: "UI/UX Designer",
@@ -47,8 +48,8 @@ export const aboutSection = [
     id: 3,
     image:
       "https://img.freepik.com/premium-vector/back-end-developer-working-laptop_701961-1383.jpg?w=2000",
-    title: "Java Developer",
-    desc: "Creating scalable and robust applications with Java.",
+    title: "Backend Developer",
+    desc: "Managing databases and backend logic effectively.",
   },
 ];
 
@@ -91,7 +92,7 @@ export const skillsList = [
   },
   {
     id: 2,
-    name: "React",
+    name: "React.js",
     icon: react,
   },
   {
@@ -99,11 +100,11 @@ export const skillsList = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    id: 3,
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   id: 3,
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     id: 4,
     name: "PostgreSQL",
@@ -112,8 +113,8 @@ export const skillsList = [
 
   {
     id: 7,
-    name: "MySQL",
-    icon: mysql,
+    name: "MongoDB",
+    icon: mongo,
   },
   
 ];

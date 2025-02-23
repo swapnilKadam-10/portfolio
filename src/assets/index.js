@@ -15,11 +15,13 @@ import c from "./c.png";
 import cpp from "./cpp.png";
 import java from "./java.png";
 import tailwind from "./tailwind.png";
+import mongo from "./mongo.png";
 
 import hotel from "./hotel.png";
 import todo from "./todo.png";
 import movie from "./movie.png";
 import codebook from "./codebook.png";
+
 
 export {
   profilePic,
@@ -41,5 +43,6 @@ export {
   todo,
   movie,
   codebook,
-  hotel
+  hotel,
+  mongo
 };

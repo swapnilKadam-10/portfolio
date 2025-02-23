@@ -36,7 +36,7 @@ export const Home = () => {
                 words={[
                   "Swapnil Kadam.",
                   "Frontend Developer.",
-                  "Java Developer.",
+                  "Backend Developer.",
                 ]}
               />
             </span>
